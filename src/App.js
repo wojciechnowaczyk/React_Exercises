@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import "./App.css";
+import CompoundComponents1 from "./Exercises/CompoundComponents1";
+import CompoundComponents2 from "./Exercises/CompoundComponents2";
+import CompoundComponents3 from "./Exercises/CompoundComponents3";
+import Main from "./main";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route
+          path="/compound-components/exercise-1"
+          element={<CompoundComponents1 />}
+        />
+        <Route
+          path="/compound-components/exercise-2"
+          element={<CompoundComponents2 />}
+        />
+        <Route
+          path="/compound-components/exercise-3"
+          element={<CompoundComponents3 />}
+        />
+        <Route path="/" element={<Main />} />
+      </Routes>
     </div>
   );
 }
