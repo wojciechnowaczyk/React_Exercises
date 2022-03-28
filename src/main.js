@@ -12,6 +12,9 @@ function Main() {
         <Link to="/compound-components/exercise-2">
           Compound Components Exercise 2 (Frontend Masters)
         </Link>
+        <Link to="/compound-components/exercise-2">
+          Compound Components Exercise 3 (with Hooks)
+        </Link>
       </div>
     </>
   );
