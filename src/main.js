@@ -15,6 +15,16 @@ function Main() {
         <Link to="/compound-components/exercise-2">
           Compound Components Exercise 3 (with Hooks)
         </Link>
+        <h2>Render Props:</h2>
+        <Link to="/render-props/exercise-1">
+          Render Props Exercise 1(Frontend Masters)
+        </Link>
+        <Link to="/render-props/exercise-2">
+          Render Props Exercise 2(Frontend Masters)
+        </Link>
+        <Link to="/render-props/exercise-3">
+          Render Props Exercise 3(Frontend Masters)
+        </Link>
       </div>
     </>
   );
