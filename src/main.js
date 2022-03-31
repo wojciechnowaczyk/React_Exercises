@@ -25,6 +25,9 @@ function Main() {
         <Link to="/render-props/exercise-3">
           Render Props Exercise 3(Frontend Masters)
         </Link>
+        <Link to="/render-props/exercise-4">
+          Render Props Exercise 4 (own example)
+        </Link>
       </div>
     </>
   );
