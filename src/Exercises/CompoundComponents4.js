@@ -1,17 +1,7 @@
-import React, { useEffect, useState, useCallback, useRef } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 
 const BookContext = React.createContext();
 const SteppenWolfImage = require("../images/steppenwolf.jpeg");
-
-function useEffectAfterMount(cb, dependencies) {
-  const justMounted = useRef(true);
-  useEffect(() => {
-    if (!justMounted.current) {
-      return cb();
-    }
-    justMounted.current = false;
-  }, dependencies);
-}
 
 function Book(props) {
   const [read, setReadStatus] = useState(false);

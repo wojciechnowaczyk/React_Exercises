@@ -31,6 +31,9 @@ function Main() {
         <Link to="/render-props/exercise-4">
           Render Props Exercise 4 (own example)
         </Link>
+        <h2>Lazy Loading:</h2>
+        <Link to="/lazy-loading/exercise-1">Lazy Loading exercise 1</Link>
+        <Link to="/lazy-loading/exercise-2">Lazy Loading exercise 2</Link>
       </div>
     </>
   );

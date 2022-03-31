@@ -8,6 +8,8 @@ import RenderProps1 from "./Exercises/RenderProps1";
 import RenderProps2 from "./Exercises/RenderProps2";
 import RenderProps3 from "./Exercises/RenderProps3";
 import RenderProps4 from "./Exercises/RenderProps4";
+import LazyLoading1 from "./Exercises/LazyLoading";
+import LazyLoading2 from "./Exercises/LazyLoading2";
 import Main from "./main";
 
 function App() {
@@ -34,6 +36,8 @@ function App() {
         <Route path="/render-props/exercise-2" element={<RenderProps2 />} />
         <Route path="/render-props/exercise-3" element={<RenderProps3 />} />
         <Route path="/render-props/exercise-4" element={<RenderProps4 />} />
+        <Route path="/lazy-loading/exercise-1" element={<LazyLoading1 />} />
+        <Route path="/lazy-loading/exercise-2" element={<LazyLoading2 />} />
         <Route path="/" element={<Main />} />
       </Routes>
     </div>
