@@ -9,7 +9,7 @@ import RenderProps2 from "./Exercises/RenderProps2";
 import RenderProps3 from "./Exercises/RenderProps3";
 import RenderProps4 from "./Exercises/RenderProps4";
 import LazyLoading1 from "./Exercises/LazyLoading";
-import LazyLoading2 from "./Exercises/LazyLoading2.js";
+import LazyLoading2 from "./Exercises/LazyLoading2";
 import Main from "./main";
 
 function App() {
