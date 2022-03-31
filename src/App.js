@@ -3,6 +3,7 @@ import "./App.css";
 import CompoundComponents1 from "./Exercises/CompoundComponents1";
 import CompoundComponents2 from "./Exercises/CompoundComponents2";
 import CompoundComponents3 from "./Exercises/CompoundComponents3";
+import CompoundComponents4 from "./Exercises/CompoundComponents4";
 import RenderProps1 from "./Exercises/RenderProps1";
 import RenderProps2 from "./Exercises/RenderProps2";
 import RenderProps3 from "./Exercises/RenderProps3";
@@ -24,6 +25,10 @@ function App() {
         <Route
           path="/compound-components/exercise-3"
           element={<CompoundComponents3 />}
+        />
+        <Route
+          path="/compound-components/exercise-4"
+          element={<CompoundComponents4 />}
         />
         <Route path="/render-props/exercise-1" element={<RenderProps1 />} />
         <Route path="/render-props/exercise-2" element={<RenderProps2 />} />
