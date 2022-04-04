@@ -11,6 +11,7 @@ import RenderProps4 from "./Exercises/RenderProps4";
 import LazyLoading1 from "./Exercises/LazyLoading";
 import LazyLoading2 from "./Exercises/LazyLoading2";
 import Main from "./main";
+import CookiesExercises from "./Exercises/Cookies";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path="/render-props/exercise-4" element={<RenderProps4 />} />
         <Route path="/lazy-loading/exercise-1" element={<LazyLoading1 />} />
         <Route path="/lazy-loading/exercise-2" element={<LazyLoading2 />} />
+        <Route path="/cookies/" element={<CookiesExercises />} />
         <Route path="/" element={<Main />} />
       </Routes>
     </div>
