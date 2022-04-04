@@ -34,6 +34,8 @@ function Main() {
         <h2>Lazy Loading:</h2>
         <Link to="/lazy-loading/exercise-1">Lazy Loading exercise 1</Link>
         <Link to="/lazy-loading/exercise-2">Lazy Loading exercise 2</Link>
+        <h2>Cookies:</h2>
+        <Link to="/cookies/">Cookies</Link>
       </div>
     </>
   );
