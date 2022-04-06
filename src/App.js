@@ -14,6 +14,8 @@ import Main from "./main";
 import CookiesExercises from "./Exercises/Cookies";
 import PureComponentExercise from "./Exercises/PureComponentExercise";
 import ControlledAndUncontrolledComponents from "./Exercises/ControlledAndUncontrolledComponents";
+import UseCallback from "./Exercises/UseCallback";
+import RenderCallback from "./Exercises/RenderCallback";
 
 function App() {
   return (
@@ -47,6 +49,8 @@ function App() {
           path="/controlled-uncontrolled-components/"
           element={<ControlledAndUncontrolledComponents />}
         />
+        <Route path="/use-callback/" element={<UseCallback />} />
+        <Route path="/render-callback/" element={<RenderCallback />} />
         <Route path="/" element={<Main />} />
       </Routes>
     </div>

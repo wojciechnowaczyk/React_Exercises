@@ -42,6 +42,9 @@ function Main() {
         <Link to="/controlled-uncontrolled-components/">
           Controlled and uncontrolled components
         </Link>
+        <h2>Render Callback:</h2>
+        <Link to="/use-callback/">useCallback</Link>
+        <Link to="/render-callback/">Render Callback</Link>
       </div>
     </>
   );
