@@ -12,6 +12,7 @@ import LazyLoading1 from "./Exercises/LazyLoading";
 import LazyLoading2 from "./Exercises/LazyLoading2";
 import Main from "./main";
 import CookiesExercises from "./Exercises/Cookies";
+import PureComponentExercise from "./PureComponentExercise";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path="/lazy-loading/exercise-1" element={<LazyLoading1 />} />
         <Route path="/lazy-loading/exercise-2" element={<LazyLoading2 />} />
         <Route path="/cookies/" element={<CookiesExercises />} />
+        <Route path="/pure-component/" element={<PureComponentExercise />} />
         <Route path="/" element={<Main />} />
       </Routes>
     </div>

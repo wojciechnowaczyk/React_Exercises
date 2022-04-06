@@ -36,6 +36,8 @@ function Main() {
         <Link to="/lazy-loading/exercise-2">Lazy Loading exercise 2</Link>
         <h2>Cookies:</h2>
         <Link to="/cookies/">Cookies</Link>
+        <h2>Pure Component:</h2>
+        <Link to="/pure-component/">Pure Component</Link>
       </div>
     </>
   );
