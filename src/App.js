@@ -13,6 +13,7 @@ import LazyLoading2 from "./Exercises/LazyLoading2";
 import Main from "./main";
 import CookiesExercises from "./Exercises/Cookies";
 import PureComponentExercise from "./PureComponentExercise";
+import ControlledAndUncontrolledComponents from "./ControlledAndUncontrolledComponents";
 
 function App() {
   return (
@@ -42,6 +43,10 @@ function App() {
         <Route path="/lazy-loading/exercise-2" element={<LazyLoading2 />} />
         <Route path="/cookies/" element={<CookiesExercises />} />
         <Route path="/pure-component/" element={<PureComponentExercise />} />
+        <Route
+          path="/controlled-uncontrolled-components/"
+          element={<ControlledAndUncontrolledComponents />}
+        />
         <Route path="/" element={<Main />} />
       </Routes>
     </div>
