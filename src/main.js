@@ -38,6 +38,10 @@ function Main() {
         <Link to="/cookies/">Cookies</Link>
         <h2>Pure Component:</h2>
         <Link to="/pure-component/">Pure Component</Link>
+        <h2>Controlled and uncontrolled components:</h2>
+        <Link to="/controlled-uncontrolled-components/">
+          Controlled and uncontrolled components
+        </Link>
       </div>
     </>
   );
