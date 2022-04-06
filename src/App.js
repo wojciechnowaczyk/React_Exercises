@@ -12,8 +12,8 @@ import LazyLoading1 from "./Exercises/LazyLoading";
 import LazyLoading2 from "./Exercises/LazyLoading2";
 import Main from "./main";
 import CookiesExercises from "./Exercises/Cookies";
-import PureComponentExercise from "./PureComponentExercise";
-import ControlledAndUncontrolledComponents from "./ControlledAndUncontrolledComponents";
+import PureComponentExercise from "./Exercises/PureComponentExercise";
+import ControlledAndUncontrolledComponents from "./Exercises/ControlledAndUncontrolledComponents";
 
 function App() {
   return (
